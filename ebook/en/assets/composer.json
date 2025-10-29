@@ -1,0 +1,6 @@
+"scripts": {
+  "pdf": "echo 'Generating light PDF...' && ibis build --theme=light",
+  "pdf-dark": "echo 'Generating dark PDF...' && ibis build --theme=dark",
+  "epub": "echo 'Generating EPUB...' && ibis build --format=epub",
+  "html": "echo 'Generating HTML...' && ibis build --format=html"
+}
